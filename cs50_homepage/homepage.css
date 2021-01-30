@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
+body{
+	background: #222;
+	margin: 0;
+	padding: 0;
+	font-family: 'Work Sans', sans-serif;
+	/*display: flex;
+	flex-direction: column;*/
+}
+#main{
+	margin: 0;
+	float: left;
+	display: inline;
+	padding: 10px 0;
+	color: #333;
+}
+.container{
+	width: 80%;
+	margin: 0 auto; 
+	font-weight: 500;
+}
+/* top  nav bar*/
+header {
+  background: #55d6aa;
+}
+header::after{
+	content: '';
+	display: table;
+	clear: both;
+	position: sticky;
+}
+nav{
+	float: right;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav li{
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 20px;
+	position: relative; /**/
+}
+nav a{
+	text-decoration: none;
+	color: #444;
+	text-transform: uppercase;
+}
+nav a:hover{
+	color: black;
+	cursor: url(DharokGreataxe.cur), pointer;
+}
+nav a::before{
+	content:'';
+	display: block;
+	height:  3px;
+	background-color: #444;
+	position: absolute;
+	top: 0;
+	width: 0%;
+	transition: all ease-in-out 300ms; 
+}
+nav a:hover::before{
+	width: 100%;
+}
+/*end of top nav bar*/
+#self-intro{
+	margin: 10px 0 0 5px;
+	padding: 0;
+	color: white;
+	display: inline-block;
+	border:solid;
+	border-color: white;
+	border-radius: 10px;
+
+}
+h3{
+	text-align: center;
+	border-bottom: solid;
+	border-bottom-color: white;
+}
+#coding-img{
+	width: 50%;
+	margin-left: 0;
+}
+
+
+/*footer start*/
+footer{
+	background-color: #4db8ff;
+	color: white;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.socials{
+	margin-top: 10px;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.socials li{
+	margin: 0 10px;
+}
+.socials a{
+	text-decoration: none;
+	color: white;
+}
+.socials a i {
+	font-size: 1.1rem;
+	transition: color ease 400ms;
+}
+.socials a:hover i{
+	color: red;
+}
+/*footer end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
